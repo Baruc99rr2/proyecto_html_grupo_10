@@ -1,0 +1,97 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.section{
+    background: #1B2430;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    border-radius: 20px;
+
+}
+    article{
+        background: #E60965;
+        border-radius: 30px;
+    }   
+
+            img{
+                height: auto;
+                width: auto;
+                max-height: 900px;
+                max-width: 900px;
+            }
+    aside{
+        background: #750550;
+        margin: auto 50px;
+        border-radius: 20px;
+        
+    }
+        .promos{
+            font-family: 'Brush Script MT', cursive;
+            text-transform: uppercase;
+            font-weight: 300;
+            text-align: center;
+        }
+        ul{
+            font-family: Tahoma, sans-serif;
+            background:#4C0027 ;
+            list-style-position: inside;
+            border-radius: 20px;
+        }
+
+.articulos{
+    flex: 2 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.articulo{
+    background: #E60965;
+    flex: 1 1 40%;
+}
+
+.boton{
+    background: #E60965;
+    font-family: Arial, sans-serif;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    margin: auto 50px;
+}
+.pelicula{
+    height: auto;
+    width: auto;
+    max-height: 500px;
+    max-width: 300px;
+}
+.centrar{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-pelicula{
+
+    font-family: 'Oswald';font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+}
+.sinopsis{
+    font-family: Verdana, sans-serif;
+}
+.duracion{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.generos{
+    background: #1B2430;
+    border-radius: 35px;
+}
